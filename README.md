@@ -8,9 +8,12 @@
 <br/>
 
 ### 原理：
-其实我也只是盗用了ADT的成果而已，主要依赖一个叫`layoutlib`的jar包，只看名字可能会觉得陌生，网上搜一下你会发现有好多【Eclipse/AS如何导入`layoutlib.jar`】的相关问题。。。没错，Eclipse和AndroidStudio能不运行Android程序直接看到xml的布局效果，也是依赖这个神奇的`layoutlib.jar`来实现的。<br/>
-其中最重要的一个类就是*Bitmap_Delegate*了，是它将Java的BufferedImage与Android的Bitmap对象 “融合” 在了一起，让这两个本来毫不相干的类实现 “数据共享”，这就是能把Canvas的内容在Java程序中保存为图片文件的最直接原因。<br/>
-当然了，我也知道弄这个东西没什么实际作用，如果是Android项目的话，对于这些绘制的代码，直接在AS自带的DesignerEditor就能看到效果了，如果是Java项目也可以直接用awt包下的Canvas来画。<br/>
+其实我也只是盗用了ADT的成果而已，主要依赖一个叫`layoutlib`的jar包，只看名字可能会觉得陌生，网上搜一下你会发现有好多【Eclipse/AS如何导入`layoutlib.jar`】的相关问题。。。没错，Eclipse和AndroidStudio能不运行Android程序直接看到xml的布局效果，也是依赖这个神奇的`layoutlib.jar`来实现的。
+
+其中最重要的一个类就是*Bitmap_Delegate*了，是它将Java的BufferedImage与Android的Bitmap对象 “融合” 在了一起，让这两个本来毫不相干的类实现 “数据共享”，这就是能把Canvas的内容在Java程序中保存为图片文件的最直接原因。
+
+当然了，我也知道弄这个东西没什么实际作用，如果是Android项目的话，对于这些绘制的代码，直接在AS自带的DesignerEditor就能看到效果了，如果是Java项目也可以直接用awt包下的Canvas来画。
+
 唯一的意义应该就是能让同学们学习到相关原理了吧。
 
 <br/>
