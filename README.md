@@ -61,6 +61,7 @@ public class Test {
 }
 ```
 运行完毕，会在项目根目录下看到一个`test.png`文件：
+
 <img src="https://github.com/wuyr/CanvasX/raw/master/test.png" width="320" height="auto"/>
 
 <br/>
