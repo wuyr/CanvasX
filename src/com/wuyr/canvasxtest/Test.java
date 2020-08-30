@@ -26,8 +26,8 @@ public class Test {
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(15);
 
-        //画白色背景
-        canvas.drawColor(Color.WHITE);
+        //画绿色背景
+        canvas.drawColor(Color.GREEN);
 
         //红色字体
         paint.setColor(Color.RED);
@@ -38,15 +38,15 @@ public class Test {
         canvas.drawText("126./!@#%%+_", 50, 500, paint);
 
         //画Path
-        paint.setColor(Color.GREEN);
-        Path path = new Path();
-        path.moveTo(250, 400);
-        path.rLineTo(600, 300);
-        path.rLineTo(-600, 300);
-        path.rLineTo(600, 300);
-        path.rLineTo(-600, 300);
-        path.rLineTo(600, 300);
-        canvas.drawPath(path, paint);
+//        paint.setColor(Color.GREEN);
+//        Path path = new Path();
+//        path.moveTo(250, 400);
+//        path.rLineTo(600, 300);
+//        path.rLineTo(-600, 300);
+//        path.rLineTo(600, 300);
+//        path.rLineTo(-600, 300);
+//        path.rLineTo(600, 300);
+//        canvas.drawPath(path, paint);
 
         //在画布中心画一个渐变圆
         paint.setStyle(Paint.Style.FILL);

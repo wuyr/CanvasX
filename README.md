@@ -1,5 +1,5 @@
 ## 一个能让你在普通Java程序上正常使用Android中的Canvas、Paint、Bitmap、Path等用于绘制图形的类的jar包，无须Android模拟器
-> ####（注意，项目代码需要用Android Studio的爸爸——IntelliJ IDEA打开）
+>（注意，项目代码需要用Android Studio的爸爸——IntelliJ IDEA打开）
 
 <br/>
 
@@ -37,8 +37,8 @@ public class Test {
         paint.setStyle(Paint.Style.STROKE);
         paint.setStrokeWidth(15);
 
-        //画白色背景
-        canvas.drawColor(Color.WHITE);
+        //画绿色背景
+        canvas.drawColor(Color.GREEN);
 
         //红色字体
         paint.setColor(Color.RED);
@@ -61,8 +61,7 @@ public class Test {
 }
 ```
 运行完毕，会在项目根目录下看到一个`test.png`文件：
-
-![preview](https://github.com/wuyr/CanvasX/raw/master/test.png)
+<img src="https://github.com/wuyr/CanvasX/raw/master/test.png" width="320" height="auto"/>
 
 <br/>
 
